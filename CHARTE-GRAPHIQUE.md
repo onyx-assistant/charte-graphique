@@ -1,7 +1,7 @@
-# Charte graphique Onyx — v1.0
+# Charte graphique Onyx — v1.1
 
 _Mise en place le 21 novembre 2026, à la demande de l'atelier : un projet uniformisé, avec des codes et des normes professionnels, comme une production de jeu vidéo ou de film d'animation. Les technologies graphiques changeront ; ces codes, eux, ne changent pas._
-_Dernière mise à jour : v1.0, 22 novembre 2026 — intégration de la direction D3 « Une couleur par série » à fonds blancs comme **système d'identité unifié** : nouvelle § 3.1 (couleurs de série, toutes surfaces), fonds à dominante blanche érigés en norme générale des surfaces, thème sombre reclassé en état ancien à migrer, exception au principe « un seul accent » (§ 11.1) reformulée (voir le journal des versions à la fin du document)._
+_Dernière mise à jour : v1.1, 24 novembre 2026 — **remplacement de l'orange ombre** : `#812900` remplace `#8D2E0F` dans la palette (§ 3) ; ratios de contraste de la § 16.1 recalculés pour la nouvelle valeur. Précédente : v1.0, 22 novembre 2026 — intégration de la direction D3 « Une couleur par série » à fonds blancs comme **système d'identité unifié** : nouvelle § 3.1 (couleurs de série, toutes surfaces), fonds à dominante blanche érigés en norme générale des surfaces, thème sombre reclassé en état ancien à migrer, exception au principe « un seul accent » (§ 11.1) reformulée (voir le journal des versions à la fin du document)._
 
 ## Portée
 
@@ -45,7 +45,7 @@ Cette charte s'applique à **toutes les surfaces** du projet Onyx :
 |---|---|---|
 | Orange lumière (pelage éclairé) | `#FC8B32` | ton dominant perçu |
 | Orange médian | `#C95D1D` | zones moyennes du pelage |
-| Orange ombre | `#8D2E0F` | ombres et profondeur |
+| Orange ombre | `#812900` | ombres et profondeur (remplace `#8D2E0F` depuis la v1.1, 24 novembre 2026) |
 | Blanc | `#FFFFFF` | fond d'identité, respiration |
 | Noir chaud | ~`#1A1512` | yeux, sourcils, broderies |
 
@@ -63,7 +63,7 @@ Valeurs photographiques de départ (v0.1) : à valider visuellement à l'écran 
 | Bordures | `#4A3728` | brun moyen |
 | Scène claire (sous les images canoniques) | `#FFF8F1` | les images officielles sur fond blanc sont toujours présentées sur cette scène claire, même en thème sombre, pour garder leur rendu exact |
 
-Les oranges maîtres (`#FC8B32`, `#C95D1D`, `#8D2E0F`) restent inchangés en thème sombre ; sur les boutons et éléments pleins orange, le texte passe en foncé pour le contraste.
+Les oranges maîtres (`#FC8B32`, `#C95D1D`, `#812900`) restent inchangés en thème sombre ; sur les boutons et éléments pleins orange, le texte passe en foncé pour le contraste.
 
 **Verrou couleur (v0.2)** :
 
@@ -90,7 +90,7 @@ En plus de la palette maîtresse ci-dessus, toutes les surfaces du projet utilis
 **Règles d'usage.**
 
 - **Une seule couleur de série par pièce** — celle de sa série, jamais un mélange de deux séries sur une même planche, couverture ou écran.
-- Petit texte sur blanc : **noir chaud** ou **orange ombre `#8D2E0F`** (règle du § 16.1 inchangée) ; la couleur de série peut porter du petit texte seulement aux combinaisons vérifiées du tableau ci-dessus.
+- Petit texte sur blanc : **noir chaud** ou **orange ombre `#812900`** (règle du § 16.1, ratios recalculés en v1.1) ; la couleur de série peut porter du petit texte seulement aux combinaisons vérifiées du tableau ci-dessus.
 - **Jamais d'orange vif `#FC8B32` en petit texte sur fond clair** (rappel § 16.1 : 2,25:1) ; jamais de texte blanc sur le jaune série (1,58:1).
 - Les couleurs de série sont des couleurs **d'habillage et de navigation** — **jamais des couleurs du personnage** : le personnage, ses oranges (§ 3) et la photo de profil (identité sur fond blanc) ne sont pas touchés par cet article.
 - Les pièces déjà publiées ne sont pas retouchées par cet article ; leur migration éventuelle relève des chantiers de migration (publications : backlog nº 43 ; sites : chantier séparé).
@@ -283,13 +283,13 @@ _Ajouté le 22 novembre 2026, à la suite de l'audit réseau/accessibilité (`do
 ### 16.1 Règles de contraste de la palette (§ 3)
 
 - **Orange lumière `#FC8B32` en texte : sur fonds sombres uniquement** — 7,91:1 sur `#161110` ✅. Sur fonds clairs il échoue partout : 2,25:1 sur `#FFF8F1`, 2,37:1 sur blanc — **interdit en texte sur clair, même en grand texte**.
-- **Petit texte orange sur fond clair : `#8D2E0F` seulement** (7,88:1 sur `#FFF8F1`, 8,30:1 sur blanc ✅). L'orange ombre est à son tour **interdit sur fond sombre** (2,26:1 sur `#161110`).
+- **Petit texte orange sur fond clair : `#812900` seulement** (8,86:1 sur `#FFF8F1`, 9,33:1 sur blanc ✅ — ratios recalculés en v1.1 pour la nouvelle orange ombre ; l'ancienne valeur `#8D2E0F` donnait 7,88:1 et 8,30:1). L'orange ombre est à son tour **interdit sur fond sombre** (2,01:1 sur `#161110`).
 - **Orange médian `#C95D1D`** : sur fond clair, **grands textes seulement** (4,14:1 sur blanc, 3,94:1 sur `#FFF8F1`) ; sur fond sombre, conforme mais juste (4,52:1 sur `#161110`) — le réserver aux éléments non critiques.
 - **Bandes, boutons et fonds pleins orange : texte sombre, jamais texte clair.** `#161110` sur `#FC8B32` = 7,91:1 ✅ ; `#FFF3E6` sur `#FC8B32` = 2,16:1 ❌. (La § 3 le disait en principe ; c'est ici chiffré et sans exception.)
 - **Textes de base** : `#FFF3E6` sur `#161110` = 17,13:1 ✅ ; texte atténué `#D2BBA6` sur `#161110` = 10,16:1 ✅ — aucun changement.
 - **Couleurs de série (§ 3.1)** : combinaisons vérifiées — blanc sur bleu série = 5,31:1 ✅, sur vert série = 5,13:1 ✅, sur rouge série = 5,48:1 ✅ ; noir chaud `#1A1512` sur jaune série = 11,47:1 ✅, sur corail série = 5,67:1 ✅. **Texte blanc sur jaune série interdit** (1,58:1 ❌). Sur les fonds blancs de la norme § 3.1, le texte reste noir chaud ou orange ombre (règles ci-dessus).
 - **Bordures `#4A3728`** : 1,67:1 sur `#161110`, sous le seuil non textuel de 3:1 — elles restent donc **strictement décoratives** ; aucune information ne doit jamais être portée par une bordure seule (les cartes et boutons restent identifiables par leur fond et leur texte).
-- **Indicateurs de focus** : le contour de focus doit atteindre ≥ 3:1 contre le fond adjacent dans **chaque** schéma (clair et sombre) — c'est l'application de cette règle qui a corrigé le contour de la page de liens en mode clair (orange foncé `#8D2E0F` en schéma clair, `#FC8B32` en schéma sombre).
+- **Indicateurs de focus** : le contour de focus doit atteindre ≥ 3:1 contre le fond adjacent dans **chaque** schéma (clair et sombre) — c'est l'application de cette règle qui a corrigé le contour de la page de liens en mode clair (orange foncé `#812900` en schéma clair, `#FC8B32` en schéma sombre).
 
 ### 16.2 Règle de partage des liens
 
@@ -320,3 +320,4 @@ _Ajouté le 22 novembre 2026, décision de l'atelier : ni les hashtags ni l'éti
 | v0.8 | 22 novembre 2026 | Application de l'audit réseau/accessibilité du même jour (corrections nº 3 et 10). **Nouvelle § 16, contrastes et partage des liens** : règles de contraste **chiffrées** de la palette § 3 (ratios calculés WCAG 2.2) — orange lumière `#FC8B32` en texte sur fonds sombres uniquement (2,25–2,37:1 sur clair : interdit, même en grand texte) ; petit texte orange sur clair = `#8D2E0F` seulement ; `#C95D1D` sur clair = grands textes seulement ; bandes et boutons orange = texte sombre, jamais clair (2,16:1) ; bordures `#4A3728` strictement décoratives ; indicateurs de focus ≥ 3:1 dans chaque schéma. **Règle de partage permanente** : toujours l'URL directe canonique, jamais une adresse enrobée `l.instagram.com` copiée depuis une application Meta. Personnage, palette et autres sections inchangés. |
 | v0.9 | 22 novembre 2026 | **Nouvelle § 17, présentation publique** (décision de l'atelier) : aucun hashtag dans les publications et textes publics ; aucune étiquette « influenceur virtuel » / « virtual influencer » dans la marque ; la transparence IA se dit en toutes lettres (« personnage virtuel créé avec l'IA », mention conservée par décision explicite). La § 17 remplace la pratique des mots-clics de la stratégie § 3.3 et le volet mots-clics de la gouvernance B4 (historiques conservés). Nettoyage des surfaces appliqué le même jour. Personnage, palette et autres sections inchangés. |
 | v1.0 | 22 novembre 2026 | **Système d'identité unifié — intégration de la direction D3 « Une couleur par série » à fonds blancs** (décisions de l'atelier du même jour : adoption ~19:18, amendement « fonds blancs » ~19:19, exemples révisés validés ~19:32, **extension à toutes les plateformes et aux deux sites** ~19:33). **Nouvelle § 3.1** : cinq couleurs d'accompagnement codées par série (bleu `#1B6AC9`, vert `#2E7D32`, rouge `#C62F24`, jaune `#FFC53D`, corail `#EF6351`), textes portés et contrastes vérifiés ; **fonds à dominante blanche érigés en norme générale de toutes les surfaces** — habillage social (Instagram, TikTok, YouTube) **et** site de l'atelier **et** page de liens, mêmes logos, mêmes images, mêmes codes couleurs partout ; les couleurs de série sont des accents d'**habillage et de navigation**, jamais des couleurs du personnage. **§ 3** : le thème sombre est reclassé **état ancien à migrer** (les deux sites le portent encore ; leur migration est un chantier séparé — la charte énonce la norme cible, pas le calendrier). **§ 11.1** : l'exception au principe 04 « un seul accent » est reformulée — l'identité (personnage, logotype, avatar) reste à l'accent orange unique ; les couleurs de série relèvent de l'habillage et de la navigation sur toutes les surfaces. **§ 5, § 11.3, § 11.4, § 15 (renvoi « fond blanc + série », planches Instagram 3:4) et § 16.1 (combinaisons de série chiffrées)** mis en cohérence. **Inchangés** : palette et apparence du personnage (§§ 1–3), Fredoka/Nunito et règles du logotype (§§ 10 et 12), zéro hashtag (§ 17), adresse directe toujours partagée (§ 16.2). Avenant d'origine : `instagram-direction-v2/AVENANT-CHARTE-D3-BROUILLON.md` (marqué intégré, avec note d'élargissement de périmètre). Aucun changement en ligne : les sites ne sont pas touchés par cette version. |
+| v1.1 | 24 novembre 2026 | **Remplacement de l'orange ombre** (décision de l'atelier, candidate nº 4 de la planche de proposition du même jour) : l'orange ombre de la palette (§ 3) passe de `#8D2E0F` à **`#812900`** — même famille que l'orange médian, légèrement adoucie. § 16.1 : ratios recalculés (WCAG 2.2) — petit texte orange sur clair : 8,86:1 sur `#FFF8F1`, 9,33:1 sur blanc ✅ ; interdit sur fond sombre maintenu (2,01:1 sur `#161110`). Application référencée partout le même jour (fiches, sites, profils, fil de couture du modèle 3D). Les mentions historiques datées conservent l'ancienne valeur comme trace. |

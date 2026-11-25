@@ -21,9 +21,9 @@ personnage verrouillée.
 [`CHARTE-GRAPHIQUE.md`](CHARTE-GRAPHIQUE.md) — le document qui fait foi :
 
 - la palette du personnage : `#FC8B32` (orange), `#C95D1D` (orange moyen),
-  `#8D2E0F` (orange foncé), `#FFFFFF` — avec la règle mesurée qui va avec :
+  `#812900` (orange foncé), `#FFFFFF` — avec la règle mesurée qui va avec :
   le petit texte orange clair sur fond clair ne passe pas les contrastes,
-  on utilise `#8D2E0F` ;
+  on utilise `#812900` ;
 - la typographie : **Fredoka** pour l'affichage, **Nunito** pour le texte
   (licences OFL incluses dans `typo-logo/`) ;
 - les couleurs de séries, en accents seulement : Modèle bleu `#1B6AC9`,

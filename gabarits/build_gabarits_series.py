@@ -22,7 +22,7 @@ Correspondance des numéros (détail au README) :
 - GB simulation de grille (contrôle avant publication ; avenant § D G5)
 
 Règles de contraste appliquées dans le code (§ 16.1) :
-- petit texte sur blanc : noir chaud ou orange ombre #8D2E0F seulement ;
+- petit texte sur blanc : noir chaud ou orange ombre #812900 seulement ;
 - jamais d'orange vif #FC8B32 en petit texte sur clair ;
 - jamais de texte blanc sur le jaune série (1,58:1) — texte porté = noir chaud ;
 - jaune série en texte sur blanc interdit (1,58:1) → remplacé par le noir chaud ;
@@ -50,7 +50,7 @@ NOIR = (26, 21, 18)          # #1A1512 noir chaud
 BRUN = (74, 55, 40)          # texte secondaire sur blanc
 CREME = (255, 243, 230)      # #FFF3E6
 PLAQUE = (255, 248, 241)     # #FFF8F1 plaque personnage / scène claire
-OMBRE = (141, 46, 15)        # #8D2E0F orange ombre (petit texte orange sur clair)
+OMBRE = (129, 41, 0)        # #812900 orange ombre (petit texte orange sur clair)
 
 # ---- LE paramètre « série » : un choix parmi les 5 (charte § 3.1) ----
 SERIES = {
