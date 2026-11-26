@@ -11,7 +11,7 @@ graphique** de l'atelier et les **constructeurs** qui produisent les pièces
 graphiques à partir d'elle — pour qu'une couverture, une planche ou un logo
 naissent conformes au lieu d'être corrigés après coup.
 
-Onyx est une peluche orange virtuelle, née dans un atelier à Montréal. Son
+Onyx est une peluche virtuelle, née dans un atelier à Montréal. Son
 identité visuelle est un système blanc dominant (le « système D3 ») : fonds
 blancs partout, une couleur d'accent par série de contenu, et la palette du
 personnage verrouillée.
