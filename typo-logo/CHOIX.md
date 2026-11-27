@@ -6,7 +6,7 @@ _22 novembre 2026 · Chantier « angles morts » nº 1 du plan de projet. Versio
 
 ### Police d'affichage et de logotype : **Fredoka** (SemiBold 600)
 
-Formes géométriques très rondes et pleines : son « O » presque circulaire répond à la tête ronde de la peluche, ses traits épais et doux donnent le côté « toutou » sans tomber dans le dessin animé criard. En SemiBold, elle reste structurée et propre — crédible sur GitHub comme sur une couverture de vidéo. Variable (300–700, plus un axe de largeur gardé à 100 %), licence SIL OFL 1.1.
+Formes géométriques très rondes et pleines : son « O » presque circulaire répond à la tête ronde de la peluche virtuelle, ses traits épais et doux donnent le côté « toutou » sans tomber dans le dessin animé criard. En SemiBold, elle reste structurée et propre — crédible sur GitHub comme sur une couverture de vidéo. Variable (300–700, plus un axe de largeur gardé à 100 %), licence SIL OFL 1.1.
 
 ### Police de texte : **Nunito** (400 / 600 / 800 + italique)
 

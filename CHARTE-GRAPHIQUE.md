@@ -17,7 +17,7 @@ Cette charte s'applique à **toutes les surfaces** du projet Onyx :
 
 ## 1. Le personnage — référence canonique
 
-- **Apparence verrouillée** : peluche mohair cannelle miel clair, oreilles rondes, yeux noirs ovales, petits sourcils courbés, museau doux, bouche en sourire simple et courbé.
+- **Apparence verrouillée** : peluche virtuelle mohair cannelle miel clair, oreilles rondes, yeux noirs ovales, petits sourcils courbés, museau doux, bouche en sourire simple et courbé.
 - **Détails fixes** (ce qui fait reconnaître Onyx — la liste de contrôle de toute approbation, cf. porte P3 dans `docs/CONSTANCE-APPLICATION.md`) :
   1. pelage **mohair cannelle miel clair uni** (§ 3.2 ; valeur de référence mesurée sur le portrait canonique : `#AD6A3D`), tissu peluche **mat à poil court (~3 mm)** à coutures visibles — jamais de fourrure réaliste ;
   2. deux oreilles rondes et pleines, plantées en haut du crâne, symétriques ;
@@ -317,7 +317,7 @@ _Ajouté le 22 novembre 2026, à la suite de l'audit réseau/accessibilité (`do
 _Ajouté le 22 novembre 2026, décision de l'opérateur : ni les hashtags ni l'étiquette « influenceur virtuel » ne font partie de l'image de marque. Nettoyage appliqué le même jour à toutes les surfaces publiques (légendes Instagram, sites, bulle visiteur, matériels préparés)._
 
 - **Aucun hashtag** dans les publications, légendes, descriptions et textes publics du projet, sur toutes les plateformes. La découverte repose sur les séries nommées, les textes écrits en langage naturel et la constance des noms composés (« Onyx Officiel », « IamOnyx ») — pas sur les mots-clics.
-- **Aucune étiquette « influenceur virtuel »** — ni « virtual influencer », ni aucune forme collée en mot-clic — nulle part dans la marque publique. Onyx se présente comme ce qu'elle est : **un personnage, une peluche**, créée dans un atelier à Montréal.
+- **Aucune étiquette « influenceur virtuel »** — ni « virtual influencer », ni aucune forme collée en mot-clic — nulle part dans la marque publique. Onyx se présente comme ce qu'elle est : **un personnage, une peluche virtuelle**, créée dans un atelier à Montréal.
 - **La transparence IA n'est pas touchée** : elle se dit en toutes lettres — « personnage virtuel créé avec l'IA » (bio, site, fiche persona) — jamais par un mot-clic. Mention factuelle **conservée** par décision explicite de l'opérateur (22 novembre 2026).
 - Cette règle **remplace** la pratique des mots-clics adoptée le matin même (stratégie § 3.3 ; gouvernance B4 pour son volet mots-clics de divulgation) : ces textes sont conservés comme historique et ne s'appliquent plus. Point d'attention consigné au journal des décisions : la divulgation légale d'un éventuel contenu commandité (gouvernance B3) devra être réconciliée avec cette règle avant toute campagne — aucune n'est en cours.
 
